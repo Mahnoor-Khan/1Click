@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.descriptionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    position: absolute;
+    width: 507px;
+    height: 543px;
+    left: 100px;
+    top: 174px;
+
+    .heading {
+        width: auto;
+        height: 72px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        color: #202029;
+
+        .tracking {
+            color: #4A8CD4;
+        }
+    }
+
+    .description {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 24px;
+        color: #2B3051;
+        margin-bottom: 0px;
+    }
+
+    .earlyBtn {
+        align-items: center;
+        padding: 12px 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        background: rgba(123, 185, 249, 0.08);
+        border-radius: 29px;
+        border: none;
+
+        .arrow {
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+    }
+
+    input {
+        outline: none;
+        border: none;
+        width: 60%;
+    }
+
+    .emailAddress {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 6px 8px 24px;
+        gap: 10px;
+        width: 458.35px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.04);
+        border-radius: 50px;
+    }
+
+    .emailHeading {
+        width: 477px;
+        height: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .emailSection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 6px;
+        width: 477px;
+        height: 90px;
+    }
+
+    .downloadBtn {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 16px;
+        gap: 8px;
+        width: auto;
+        background: linear-gradient(275.82deg, #000000 0%, rgba(0, 0, 0, 0.75) 100%);
+        border: 0.5px solid rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 6px;
+        color: white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .logos {
+        width: 20px;
+        height: 20px;
+    }
+
+    .downloadSection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 477px;
+        height: 81px;
+    }
+
+    .downloadBtns {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+        width: 295px;
+        height: 45px;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.mapImg {
+    position: absolute;
+    width: 851px;
+    height: 567.33px;
+    left: 589.46px;
+    top: 220px;
+}
