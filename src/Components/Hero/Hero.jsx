@@ -39,16 +39,14 @@ const Hero = () => {
                 <img src={appleLogo} className="logos" />
                 Apple Store
               </button>
-              <button className="downloadBtn">
+              <button className="downloadBtn playstoreBtn">
                 <img src={playstoreLogo} className="logos" />
                 Play Store
               </button>
             </div>
           </div>
         </div>
-        <div>
-          <img className="mapImg" src={heroMap} />
-        </div>
+        <img className="mapImg" src={heroMap} />
       </div>
     </>
   );

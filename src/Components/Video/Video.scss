@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.videoPortion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    .videoHeading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #202029;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 6px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 44px;
+
+        .heartIcon {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .video {
+        left: 0px;
+        top: 84.33px;
+        filter: drop-shadow(0px 0px 32px rgba(0, 0, 0, 0.25));
+        border-radius: 24px;
+    }
+}

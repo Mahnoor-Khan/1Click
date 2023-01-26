@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.performancePortion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+    padding: 168px;
+
+    .performanceHeading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #202029;
+
+        .rocketIcon {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .performancePoints {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        .performancePointsOne {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 40px;
+        }
+
+        .performancePointsTwo {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 40px;
+        }
+
+        .points {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+            width: 386.67px;
+            height: 264px;
+            background: #FCFCFF;
+            border: 0.5px solid #E3E6FF;
+            border-radius: 16px;
+
+            .pointsData {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+                padding: 24px 32px;
+
+                .pointIcon {
+                    width: 48px;
+                    height: 48px;
+                }
+
+                .pointHeading {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin: 0px;
+                    color: #1E1E36;
+                }
+
+                .pointDescription {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 28px;
+                    margin: 0px;
+                    color: #1E1E36;
+                }
+            }
+        }
+    }
+}

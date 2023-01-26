@@ -1,0 +1,7 @@
+.App{
+    display: flex;
+    flex-direction: column;
+}
+.VidAndPerSection{
+    background: linear-gradient(180deg, #FCFCFC 0%, #EDEEF8 100%);
+}

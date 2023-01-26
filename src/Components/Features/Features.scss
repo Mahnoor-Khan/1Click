@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.features {
+    height: 1659px;
+    left: 0px;
+    top: 4289px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .featuresHeading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        justify-content: center;
+        position: absolute;
+        width: 524px;
+        height: 86px;
+        left: 458px;
+        top: 2685px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.01);
+        border-radius: 59px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #202029;
+
+        .featureHeadingIcon {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .featureDesAndImg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 318px;
+        justify-content: flex-end;
+
+        .featuresDescriptions {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 56px;
+            position: absolute;
+            width: 380px;
+            height: 637px;
+            left: 230px;
+            top: 2921px;
+
+            .feature {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+                padding: 10px 20px;
+                width: fit-content;
+                background: #FFFFFF;
+                box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.03);
+                border-radius: 32px;
+                color: #1E1E36;
+
+                .bullet {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+
+            .description {
+                width: 355px;
+                height: 48px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #202029;
+            }
+
+            .downloadSection {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                width: 294px;
+                height: 129px;
+
+                .logo {
+                    width: 90px;
+                    padding-bottom: 25px
+                }
+
+                .download {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 8px;
+                    width: 477px;
+                    height: 81px;
+
+                    .emailHeading {
+                        width: 477px;
+                        height: 28px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 28px;
+                        display: flex;
+                        align-items: center;
+                        color: #000000;
+                    }
+
+                    .downloadBtns {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 12px;
+                        height: 45px;
+
+                        .downloadBtn {
+                            box-sizing: border-box;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 12px 16px;
+                            gap: 8px;
+                            width: auto;
+                            background: linear-gradient(275.82deg, #000000 0%, rgba(0, 0, 0, 0.75) 100%);
+                            border: 0.5px solid rgba(0, 0, 0, 0.25);
+                            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+                            border-radius: 6px;
+                            color: white;
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 21px;
+                        }
+
+                        .logos {
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        .playstoreBtn {
+                            width: 141px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .mobileImg {
+            position: absolute;
+            width: 618px;
+            height: 698px;
+            padding-bottom: 250px;
+        }
+    }
+
+    .trySection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 64px 40px;
+        gap: 64px;
+        position: absolute;
+        width: 1023px;
+        height: 344px;
+        left: 209px;
+        top: 3758px;
+        background: linear-gradient(274.98deg, #7BB9F9 0%, #6FB3F9 100%);
+        box-shadow: 0px 0px 24px rgba(123, 185, 249, 0.1);
+        border-radius: 24px;
+
+        .tryHeading {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            color: #202029;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 12px 40px;
+            width: 523px;
+            background: #99CBFF;
+            border-radius: 52px;
+        }
+
+        .tryPoints {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1E1E36;
+
+            .tryPointRowOne {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 24px;
+            }
+
+            .tryPointRowTwo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 24px;
+            }
+
+            .tryPoint {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 16px 24px;
+                gap: 8px;
+                width: auto;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                background: #FFFFFF;
+                box-shadow: inset 0px 0px 4px #CCE5FF;
+                border-radius: 82px;
+                color: #1E1E36;
+
+                .tryPointIcon {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
