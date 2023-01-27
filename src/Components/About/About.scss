@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 173px;
+    position: absolute;
+    width: 1240px;
+    height: 2020px;
+    left: 100px;
+    top: 6430px;
+    margin-top: 200px;
+
+    .sectionOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 80px;
+        width: 1240px;
+        height: 702px;
+
+        .sectionOneHeading {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px 40px;
+            gap: 8px;
+            justify-content: center;
+            width: 892px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 54px;
+            color: #202029;
+
+            .chargeIcon {
+                width: 48px;
+                height: 48px;
+            }
+
+            .applicationSpan {
+                color: #4A8CD4;
+            }
+        }
+
+        .sectionOneCards {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 50px;
+            width: 1240px;
+            height: 568px;
+
+            .cardRows {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 50px;
+                width: 1240px;
+                height: 259px;
+
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 24px 32px 32px;
+                    background: #FCFCFF;
+                    border: 0.5px solid #E3E6FF;
+                    border-radius: 16px;
+
+                    .cardData {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0px;
+                        gap: 16px;
+                        width: 316px;
+                        height: 203px;
+
+                        .userImg {
+                            width: 80px;
+                            height: 80px;
+                            border: 1px solid #EEF3FF;
+                        }
+
+                        .aboutPosition {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 0px;
+                            gap: 8px;
+                            width: 316px;
+                            height: 107px;
+
+                            .position {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 27px;
+                                margin: 0px;
+                                color: #000000;
+                            }
+
+                            .positionDescription {
+                                width: 316px;
+                                height: 72px;
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                margin: 0px;
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+
+                                color: #1E1E36;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 80px;
+        width: 1212px;
+        height: 309px;
+
+        .sectionHeading {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 12px;
+            width: 351px;
+            height: 54px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 54px;
+            color: #202029;
+
+            .logoSpanOne {
+                color: #6AB9FF
+            }
+
+            .logoSpanTwo {
+                color: #328CDA
+            }
+        }
+
+        .sectionTwoCrds {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 48px;
+            width: 1212px;
+            height: 175px;
+
+            .cardTwo {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 24px;
+                width: 372px;
+                background: #E6E9FF;
+                box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.03);
+                border-radius: 16px;
+
+                .numberIcons {
+                    width: 48px;
+                    height: 48px;
+                }
+
+                .cardTwoDescription {
+                    width: auto;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    display: flex;
+                    align-items: center;
+                    color: #1E1E36;
+                }
+            }
+        }
+    }
+
+    .sectionThree {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+        width: 1144px;
+        margin-top: 85px;
+
+        .sectionThreeHeading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            width: 646px;
+
+            .logo {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                color: #328CDA;
+                margin: 0px;
+
+                .logoSpan {
+                    color: #6AB9FF;
+                }
+            }
+
+            .threeHeading {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 54px;
+                color: #202029;
+                margin: 0px;
+            }
+        }
+
+        .setionThreeDescription {
+            width: 1144px;
+            height: 128px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #202029;
+        }
+    }
+
+    .sectionFour {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 38px;
+        width: 1240px;
+        height: 252px;
+
+        .cardFour {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 24px 32px;
+            gap: 16px;
+            width: 601px;
+            height: 200px;
+            background: #DFE6FF;
+            border: 0.5px solid #E3E7FF;
+            border-radius: 16px;
+
+            .cardFourHeading {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 12px 24px;
+                gap: 10px;
+                width: 453px;
+                background: #D5DCFF;
+                border: 0.5px solid #EDEDF4;
+                border-radius: 31px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0px;
+                color: #1E1E36;
+
+                .locationIcon {
+                    width: 18px;
+                    height: 22;
+                }
+
+                .privacyIcon {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            .cardFourDescriotion {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                margin: 0px;
+                color: #1E1E36;
+            }
+        }
+    }
+}

@@ -1,0 +1,160 @@
+.signIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 1117px;
+    height: 204px;
+    left: 162px;
+    margin-top: 206px;
+
+    .signInText {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0px;
+        color: #2F577B;
+    }
+
+    .signInText {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0px;
+        color: #2F577B;
+    }
+
+    .signInHeading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        margin: 0px;
+        color: #202029;
+    }
+
+    .signInDescription {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #202029;
+    }
+}
+
+.helpHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 8px;
+    justify-content: center;
+    position: absolute;
+    width: 807px;
+    left: 313px;
+    top: 4710px;
+    color: white;
+    background: #000000;
+    border-radius: 49px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 198px;
+
+    .tickIcon {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.helpPoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 150px;
+    position: absolute;
+    width: 1090px;
+    height: 1336px;
+    left: 175px;
+    margin-top: 120px;
+    top: 4894px;
+    margin-top: 180px;
+
+    .helpPointsColOne {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 120px;
+        width: 470px;
+        height: 1336px;
+    }
+
+    .helpPointsColTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 120px;
+        width: 470px;
+        height: 1056px;
+    }
+
+    .point {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 470px;
+        height: 232px;
+
+        .pointHeading {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px 24px;
+            gap: 12px;
+            width: fill-available;
+            background: #EFEFF5;
+            border-radius: 43px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            color: #000000;
+
+            .pointIcon {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        .pointDescription {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #202029;
+        }
+    }
+}
